@@ -5,16 +5,24 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.7",
+    "chai-fs": "^2.0.0",
     "cypress": "^12.8.1",
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
+    "mocha": "^10.2.0",
     "pug": "^3.0.2",
+    "should": "^13.2.3",
+    "supertest": "^6.3.3",
     "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "mock-fs": "^5.2.0"
   }
 }
